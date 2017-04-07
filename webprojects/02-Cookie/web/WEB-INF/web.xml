@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>CookieDemo1</servlet-name>
+        <servlet-class>com.vbirds.web.CookieDemo1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> CookieDemo1 </servlet-name>
+        <url-pattern>/CookieDemo1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetCookie</servlet-name>
+        <servlet-class>com.vbirds.web.GetCookie</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> GetCookie </servlet-name>
+        <url-pattern>/GetCookie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetLatsTime</servlet-name>
+        <servlet-class>com.vbirds.web.GetLatsTime</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> GetLatsTime </servlet-name>
+        <url-pattern>/GetLatsTime</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+

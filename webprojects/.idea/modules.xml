@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/02-Cookie/02-Cookie.iml" filepath="$PROJECT_DIR$/02-Cookie/02-Cookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Shop/03-Shop.iml" filepath="$PROJECT_DIR$/03-Shop/03-Shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myhello/myhello.iml" filepath="$PROJECT_DIR$/myhello/myhello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webprojects.iml" filepath="$PROJECT_DIR$/webprojects.iml" />
+    </modules>
+  </component>
+</project>
