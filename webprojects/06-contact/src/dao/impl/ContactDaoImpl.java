@@ -26,7 +26,6 @@ public class ContactDaoImpl implements ContactDao {
         loadAll();
     }
 
-
     private static void loadAll() {
         Document doc = XMLUtil.getDocument("./contact");
         if (doc != null) {
@@ -79,7 +78,7 @@ public class ContactDaoImpl implements ContactDao {
      * 添加联系人
      * @param contact
      */
-    public void addCOntact(Contact contact){
+    public void addContact(Contact contact){
         File file = new File("./contact.xml");
         Document doc = null;
         Element rootElem = null;
