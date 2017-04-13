@@ -1,4 +1,4 @@
-package util;
+package com.vbirds.web.util;
 
 /**
  * Created by vbirds on 17-4-10.
@@ -39,7 +39,7 @@ public class XMLUtil {
      */
     public static void write2xml(Document doc){
         try {
-            FileOutputStream out = new FileOutputStream("./contact.xml");
+            FileOutputStream out = new FileOutputStream("/home/vbirds/contact.xml");
             OutputFormat format = OutputFormat.createPrettyPrint();
             format.setEncoding("utf-8");
             XMLWriter writer = new XMLWriter(out,format);

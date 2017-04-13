@@ -1,7 +1,6 @@
-package dao;
+package com.vbirds.web.dao;
 
-import entity.Contact;
-import org.omg.CORBA.PUBLIC_MEMBER;
+import com.vbirds.web.entity.Contact;
 
 import java.util.List;
 
@@ -27,6 +26,12 @@ public interface ContactDao {
      * @param contact
      */
     public void addContact(Contact contact);
+
+    /**
+     *
+     * @param contact
+     */
+    public void modify(Contact contact);
 
     /**
      * 更新联系人

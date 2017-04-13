@@ -1,4 +1,4 @@
-package entity;
+package com.vbirds.web.entity;
 
 /**
  * Created by vbirds on 17-4-10.

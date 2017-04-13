@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.vbirds.web.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> LoginServlet </servlet-name>
+        <url-pattern>/05-login/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>IndexServelet</servlet-name>
+        <servlet-class>com.vbirds.web.IndexServelet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> IndexServelet </servlet-name>
+        <url-pattern>/05-login/IndexServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.vbirds.web.LogoutServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> LogoutServlet </servlet-name>
+        <url-pattern>/05-login/LogoutServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>

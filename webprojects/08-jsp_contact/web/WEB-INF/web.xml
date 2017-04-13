@@ -11,7 +11,7 @@
 
     <servlet-mapping>
         <servlet-name> ListContactServlet </servlet-name>
-        <url-pattern>/06-contact/ListContactServlet</url-pattern>
+        <url-pattern>/08-jsp_contact/ListContactServlet</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -21,7 +21,7 @@
 
     <servlet-mapping>
         <servlet-name> QueryContactServlet </servlet-name>
-        <url-pattern>/06-contact/QueryContactServlet</url-pattern>
+        <url-pattern>/08-jsp_contact/QueryContactServlet</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -31,7 +31,6 @@
 
     <servlet-mapping>
         <servlet-name> UpdateContactServlet </servlet-name>
-        <url-pattern>/06-contact/UpdateContactServlet</url-pattern>
+        <url-pattern>/08-jsp_contact/UpdateContactServlet</url-pattern>
     </servlet-mapping>
-
 </web-app>

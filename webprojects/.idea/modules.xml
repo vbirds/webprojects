@@ -4,6 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/02-Cookie/02-Cookie.iml" filepath="$PROJECT_DIR$/02-Cookie/02-Cookie.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-Shop/03-Shop.iml" filepath="$PROJECT_DIR$/03-Shop/03-Shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-session/04-session.iml" filepath="$PROJECT_DIR$/04-session/04-session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-login/05-login.iml" filepath="$PROJECT_DIR$/05-login/05-login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-contact/06-contact.iml" filepath="$PROJECT_DIR$/06-contact/06-contact.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-jsp-base/07-jsp-base.iml" filepath="$PROJECT_DIR$/07-jsp-base/07-jsp-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-jsp_contact/08-jsp_contact.iml" filepath="$PROJECT_DIR$/08-jsp_contact/08-jsp_contact.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-jstl/09-jstl.iml" filepath="$PROJECT_DIR$/09-jstl/09-jstl.iml" />
       <module fileurl="file://$PROJECT_DIR$/myhello/myhello.iml" filepath="$PROJECT_DIR$/myhello/myhello.iml" />
       <module fileurl="file://$PROJECT_DIR$/webprojects.iml" filepath="$PROJECT_DIR$/webprojects.iml" />
     </modules>
